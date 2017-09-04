@@ -1,17 +1,17 @@
 img {
     width: 500px;
     margin: 1px;
+    text-align: center;
 }
 
 body {
-    text-align: center;
     font-family: Helvetica;
     background-color:#809fff;
     color: black;
     margin: 20px;
 }
 
-p.quote{
+.quote{
   font-style: italic;
 }
 
