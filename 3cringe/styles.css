@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 h1 {
     font-family: "Chewy";
     color:white;
@@ -13,6 +14,7 @@ h1 {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 @keyframes colorText {
     0% {color: white;}
     14% {color: red;}
@@ -23,18 +25,22 @@ h1 {
     88%{color: purple;}
     100%{color:white;}
 }
+
 img {
     width: 100%;
 }
+
 .block1, .block2 {
     top: 10px;
     width: 19%;
     position: absolute;
     transition-duration: 2s;
 }
+
 .block2 {
     left: 80%;
 }
+
 .reallybig {
     top: 220px;
     width: 50%;
@@ -42,10 +48,11 @@ img {
     position: absolute;
     transition-duration: 2s;
 }
+
 .block1:hover, .block2:hover {
     transform: rotate(360deg);
-    
 }
+
 .reallybig:hover {
     filter: grayscale(100%);
 }
